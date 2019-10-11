@@ -48,7 +48,8 @@ public class MainActivity extends AppCompatActivity {
     public void Registrar(View view){
         limpiar();
         Intent intent= new Intent(view.getContext(),Registro.class);
-        startActivityForResult(intent,0);
+        //startActivityForResult(intent,0);
+        startActivity(intent);
     }
     public void limpiar(){
         Usuario.setText("");
