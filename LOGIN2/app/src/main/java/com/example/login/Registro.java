@@ -18,12 +18,12 @@ public class Registro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registro);
 
-        Nombre=(EditText)findViewById(R.id.editText3);
-        Apellidos=(EditText)findViewById(R.id.editText4);
-        Correo=(EditText)findViewById(R.id.editText5);
-        Usuario=(EditText)findViewById(R.id.editText6);
-        password=(EditText)findViewById(R.id.editText7);
-        password2=(EditText)findViewById(R.id.editText8);
+        Nombre=findViewById(R.id.editText3);
+        Apellidos=findViewById(R.id.editText4);
+        Correo=findViewById(R.id.editText5);
+        Usuario=findViewById(R.id.editText6);
+        password=findViewById(R.id.editText7);
+        password2=findViewById(R.id.editText8);
     }
     public void Guardar(View view){
         AdminSQLiteOpenHelper admin = new AdminSQLiteOpenHelper(this,"Registro",null,1);

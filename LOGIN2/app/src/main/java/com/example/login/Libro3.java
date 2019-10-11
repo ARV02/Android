@@ -16,7 +16,7 @@ public class Libro3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_libro3);
-        descripcion=(TextView)findViewById(R.id.textView10);
+        descripcion=findViewById(R.id.textView10);
         descripcion.setMovementMethod(new ScrollingMovementMethod());
         Libro3();
     }

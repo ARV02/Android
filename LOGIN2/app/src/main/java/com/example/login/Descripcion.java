@@ -18,8 +18,8 @@ public class Descripcion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_descripcion);
-        descripcion=(TextView)findViewById(R.id.textView12);
-        imagen=(ImageView)findViewById(R.id.imageView2);
+        descripcion=findViewById(R.id.textView12);
+        imagen=findViewById(R.id.imageView2);
         descripcion1();
     }
     private void descripcion1(){

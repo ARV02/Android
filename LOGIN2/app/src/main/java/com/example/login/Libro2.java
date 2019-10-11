@@ -13,7 +13,7 @@ public class Libro2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_libro2);
-        descripcio=(TextView)findViewById(R.id.textView9);
+        descripcio=findViewById(R.id.textView9);
         Libro2();
     }
     private void Libro2(){

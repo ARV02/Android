@@ -13,14 +13,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private EditText Usuario,Pass;
-    private Cursor fila;
+    Cursor fila;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Usuario=(EditText)findViewById(R.id.editText);
-        Pass=(EditText)findViewById(R.id.editText2);
+        Usuario=findViewById(R.id.editText);
+        Pass=findViewById(R.id.editText2);
     }
     public void Login(View view){
         AdminSQLiteOpenHelper admin=new AdminSQLiteOpenHelper(this,"Registro",null,1);
